@@ -1,0 +1,164 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+#logo
+{
+    position: absolute;
+    left: 100px;
+    top: 19px;
+    width: 171px;
+    height: 35px;
+
+}
+#mainmenu {
+    position: absolute;
+    right: 400px;
+    width: 800px; 
+    height: 27px; 
+    top: 24px; 
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    font-weight: 1000;
+    text-align: center;
+    color: #0b132a;
+    word-spacing: 5px;
+}
+a {
+    text-decoration: none;
+    color: #0b132a;
+}
+#regist {
+    position: absolute;
+    right: 40px;
+    top: 23px;
+    width: 202px;
+    height: 50px;
+}
+#rectangle {
+    height: 101px;
+    background-image: none;
+}
+nav {
+    position: absolute;
+    right: 40px;
+    top: 116px;
+    font-family: "Montserrat", sans-serif;
+    color: rgba(11, 19, 42, 0.61);
+    font-size: 18px;
+    font-weight: 1000;
+    word-spacing: 5px;
+}
+.undermenu:nth-of-type(2) {
+    color: rgba(245, 56, 56, 1);
+}
+.undermenu:nth-of-type(2):hover {
+    color: black;
+}
+#line {
+    position: absolute;
+    top: 155px;
+}
+#baner {
+    position: absolute;
+    right: 0px;
+    top: 194px;
+    width: 1920px;
+    height: 529px;
+    
+}
+h1  {
+    position: absolute;
+    top: 246px;
+    left: 100px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 30px;
+    font-weight: 1000;
+    color: rgba(25, 39, 77, 1);
+}
+article h3 {
+    position: absolute;
+    top: 374px;
+    left: 100px;
+    color:black ;
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+}
+#photo {
+    position: absolute;
+    top: 236px;
+    right: 125px;
+}
+#regist2 {
+    position: absolute;
+    top: 497px;
+    left: 440px;
+}
+#start {
+    position: absolute;
+    top: 460px;
+    left: 70px;
+}
+h2 {
+    position: absolute;
+    top: 767px;
+    left: 530px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 30px;
+    font-weight: 1000;
+    color: rgba(25, 39, 77, 1);
+    text-align: center;
+}
+#photo2 {
+    position: absolute;
+    top: 938px;
+    left: 320px;
+}
+#feedback {
+    position: absolute;
+    top: 938px;
+    left: 1130px;
+}
+a:hover {
+    color: rgba(245, 56, 56, 1);
+}
+a:active {
+    text-decoration: underline;
+}
+#logofooter {
+    position: absolute;
+    top: 1500px;
+    left: 100px;
+}
+#inst {
+    position: absolute;
+    top: 1438px;
+    right: 1345px;
+}
+#youtube {
+    position: absolute;
+    top: 1440px;
+    right: 1385px;
+}
+#twitter {
+    position: absolute;
+    top: 1440px;
+    right: 1425px;
+}
+#footer {
+    position: absolute;
+    right: 250px;
+    width: 1050px; 
+    height: 100px; 
+    top: 1510px; 
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    font-weight: 1000;
+    text-align: center;
+    color: #0b132a;
+    word-spacing: 40px;
+}
+.footermenu:last-of-type{
+    color: rgba(245, 56, 56, 1);
+}

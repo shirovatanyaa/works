@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Опросник для обладателей магических животных</h1>
+    <form action="script.php" method="post">
+    <div>
+        <label for="pet-name">Кличка питомца</label>
+        <input type="text" id="pet-name"> </div>
+    <div>
+        <label for="owner-name">Имя владельца</label>
+        <input type="text" id="owner-name"> </div>
+    <div>
+        <label for="email">Адрес почты</label>
+        <input type="text" id="email"> </div>
+    <div>
+        <label for="phone">Номер телефона</label>
+        <input type="text" id="phone"> </div>
+    <div>
+        <label for="pet-breed">Порода животного:</label>
+        <select id="pet-breed" name="pet-breed" required>
+            <option value="">Выберите</option>
+            <option value="pomeranian">Шпиц</option>
+            <option value="corgi ">Корги</option>
+            <option value="greyhound">Борзая</option>
+            <option value="doberman">Доберман</option>
+            <option value="pit bull">Питбуль</option> </select> <br> </div>
+    <div>
+        <label for="pet-age">Возраст питомца</label>
+        <input type="number" id="pet-age" min="1" max="25"></div>
+    <div>
+        <label for="food">Чем питается питомец:</label> <br>
+        Сухой корм <input type="radio" id="food" />  <br> Влажный корм <input type="radio" id="2food" /> <br> Натуральный корм <input type="radio" id="3food"></div> 
+    <div>
+        <label for="sex">Пол питомца:</label> <br>
+        Самка <input type="radio" name="sex" id="sex" />  <br> Самец <input type="radio" name="sex" id="male"/> </div>
+    <div>
+        <label for="textarea">Комментарий владельца:</label> <br>
+        <textarea name="text" id="textarea" cols="30" rows="10"></textarea></div>
+    <div>
+        <label for="file">Приложить фото питомца</label>
+        <input type="file" id="file"></div>
+    <div>
+        <input type="submit" value="Сохранить"></div>
+    </form>
+</body>
+</html>
