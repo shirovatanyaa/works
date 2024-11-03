@@ -1,24 +1,26 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Смена изображений</title>
-    <style>
-        img {
-            max-width: 600px;
-            height: auto;
-        }
-    </style>
+    <link rel="stylesheet" href="index.js">
+    <link rel="stylesheet" href="style.css">
+    <title>Галлерея изображений</title>
 </head>
 <body>
-
-    <img id="image" src="images/1659831487_1-pofoto-club-p-belii-dekorativnii-krolik-1.jpg" alt="1Image">
-    <img id="image" src="week7/images/wqrd1u424e3c5vuqzdtealmj0ury0kw4.jpg" alt="2Image">
-    
-
-    <button onclick="prevImage()">Назад</button>
-    <button onclick="nextImage()">Вперед</button>
+    <container>
+        <div1>
+            <img id="image" src="images/1659831487_1-pofoto-club-p-belii-dekorativnii-krolik-1.jpg" alt="1Image">
+            <img id="image" src="week7/images/wqrd1u424e3c5vuqzdtealmj0ury0kw4.jpg" alt="2Image">
+            
+        </div1>
+        <div2>
+            <button onclick="prevImage()">Назад</button>
+        </div2>
+        <div3>
+            <button onclick="nextImage()">Вперед</button>
+        </div3>
+    </container>
 
     <script>
         const images = ['week7/images/1659831487_1-pofoto-club-p-belii-dekorativnii-krolik-1.jpg', 'week7/images/wqrd1u424e3c5vuqzdtealmj0ury0kw4.jpg'];
