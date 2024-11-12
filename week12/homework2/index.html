@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="html">
+        <p class="text-html">Рандомное слово</p>
+    </div>
+    <script>
+        const text = document.querySelector('.text-html')
+        const alphabet = ["a", "b" ,"c", "d", "e", "f", "g", "h", "i", "j", "k"]
+        const randomIndex1 = Math.floor(Math.random() * 11);
+        const randomIndex2 = Math.floor(Math.random() * 11);
+        const randomIndex3 = Math.floor(Math.random() * 11);
+        const randomIndex4 = Math.floor(Math.random() * 11);
+        const randomLetter1 = alphabet[randomIndex1];
+        const randomLetter2 = alphabet[randomIndex2];
+        const randomLetter3 = alphabet[randomIndex3];
+        const randomLetter4 = alphabet[randomIndex4];
+    console.log(randomLetter1 + randomLetter2 + randomLetter3 + randomLetter4);
+    text.innerText = randomLetter1 + randomLetter2 + randomLetter3 + randomLetter4;
+    </script>
+</body>
+</html>
